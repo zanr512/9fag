@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="9-fag" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\C50206\\Desktop\\9fag\\9fag\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\C50206\\Desktop\\9fag\\9fag\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="baza-Web.config Connection String" description="" value="Data Source=eu-cdbr-azure-north-d.cloudapp.net;Initial Catalog=projektna;User ID=b66ca9b5986320;Password=3fa6a14d" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\C50206\\Desktop\\9fag\\9fag\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='baza']/@connectionString" />
+  </parameter>
+</parameters>

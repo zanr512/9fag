@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="baza-Web.config Connection String" description="baza Connection String used in web.config by the application to access the database." defaultValue="Server=eu-cdbr-azure-north-d.cloudapp.net;Database=projektna;Uid=b66ca9b5986320;Pwd=3fa6a14d" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\C50206\\Desktop\\9fag\\9fag\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='baza']/@connectionString" />
+  </parameter>
+</parameters>
