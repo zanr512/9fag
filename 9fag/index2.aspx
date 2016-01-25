@@ -47,7 +47,7 @@
                         <asp:DataList ID="DataList1" runat="server" RepeatColumns = "1" CellPadding = "4">
                             <ItemTemplate>
                                 <div class="images">
-                                    <p><h1><%# Eval("upload_name") %></h1></p>
+                                    <h1 class="uploadeddesc"><%# Eval("upload_name") %></h1>
                                     <asp:Image ID="Image1" ImageUrl='<%# Eval("upload_path") %>' runat="server" CssClass="resize"/> 
                                     <p></p>
                                                               

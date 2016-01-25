@@ -3825,3 +3825,24 @@ nav a
     padding-left:20px;
     padding-right:10px;
 }
+.deleteimg
+{
+    text-decoration:none;
+    color:#777;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.deleteimg:hover
+{
+    text-decoration:none;
+    color:#999;
+}
+.uploadeddesc
+{
+    font-size:32px;
+    font-weight:bold;
+    color:#666;
+    text-shadow:1px 1px;
+}

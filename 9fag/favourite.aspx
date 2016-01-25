@@ -32,7 +32,7 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<h2>My memes</h2>
+					<h2>My Memes</h2>
 				</section>
 
 			<!-- Main -->
@@ -44,11 +44,10 @@
                         <asp:DataList ID="DataList1" runat="server" RepeatColumns = "1" CellPadding = "4">
                             <ItemTemplate>
                                 <div class="images">
-                                    <p><h1><%# Eval("upload_name") %></h1></p>
+                                    <h1 class="uploadeddesc"><%# Eval("upload_name") %></h1>
                                     <asp:Image ID="Image1" ImageUrl='<%# Eval("upload_path") %>' runat="server" CssClass="resize"/>
-                                    <br /> 
-                                    <a href="work.aspx?id=<%# Eval("upload_pic_id") %>" onclick="return confirm('Are you sure you want to delete this meme?')">Delete pic</a>
-                                                              
+                                    <br />
+                                    <a class="deleteimg" href="work.aspx?id=<%# Eval("upload_pic_id") %>" onclick="return confirm('Are you sure you want to delete this meme?')">Delete pic</a>                 
                                 </div>
                             </ItemTemplate>
                         </asp:DataList>
